@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-23T22:39:20 IST" name="Suite" finished-at="2024-07-23T22:39:26 IST" duration-ms="5940">
+    <groups>
+    </groups>
+    <test started-at="2024-07-23T22:39:20 IST" name="Test" finished-at="2024-07-23T22:39:26 IST" duration-ms="5940">
+      <class name="testNGAssignment.GoogleSearchTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGAssignment.GoogleSearchTest@145f66e3]" started-at="2024-07-23T22:39:20 IST" name="beforeMethod" finished-at="2024-07-23T22:39:23 IST" duration-ms="2874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="javascriptExecuterGoogleSearchCheck(java.lang.String)[pri:1, instance:testNGAssignment.GoogleSearchTest@145f66e3]" started-at="2024-07-23T22:39:23 IST" name="javascriptExecuterGoogleSearchCheck" finished-at="2024-07-23T22:39:23 IST" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javascriptExecuterGoogleSearchCheck -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testNGAssignment.GoogleSearchTest@145f66e3]" started-at="2024-07-23T22:39:23 IST" name="afterMethod" finished-at="2024-07-23T22:39:23 IST" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=javascriptExecuterGoogleSearchCheck status=SUCCESS method=GoogleSearchTest.javascriptExecuterGoogleSearchCheck(java.lang.String)[pri:1, instance:testNGAssignment.GoogleSearchTest@145f66e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGAssignment.GoogleSearchTest@145f66e3]" started-at="2024-07-23T22:39:23 IST" name="beforeMethod" finished-at="2024-07-23T22:39:25 IST" duration-ms="2017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="parameterizartionGoogleSearchCheck(java.lang.String)[pri:2, instance:testNGAssignment.GoogleSearchTest@145f66e3]" started-at="2024-07-23T22:39:25 IST" name="parameterizartionGoogleSearchCheck" finished-at="2024-07-23T22:39:26 IST" duration-ms="301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fruit Oranges]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterizartionGoogleSearchCheck -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testNGAssignment.GoogleSearchTest@145f66e3]" started-at="2024-07-23T22:39:26 IST" name="afterMethod" finished-at="2024-07-23T22:39:26 IST" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=parameterizartionGoogleSearchCheck status=SUCCESS method=GoogleSearchTest.parameterizartionGoogleSearchCheck(java.lang.String)[pri:2, instance:testNGAssignment.GoogleSearchTest@145f66e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNGAssignment.GoogleSearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

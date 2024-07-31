@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="fo" value="Fruit Oranges"/>
+  <parameter name="ap" value="apple"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testNGAssignment.GoogleSearchTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="javascriptExecuterGoogleSearchCheck" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNGAssignment.GoogleSearchTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
